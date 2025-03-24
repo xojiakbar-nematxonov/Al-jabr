@@ -3,7 +3,7 @@ import Navbar from "@/components/dashboard/navbar";
 import Header from "@/components/dashboard/header";
 import HeaderBanner from "@/components/header/headerBanner";
 import Directions from "@/components/header/directions";
-
+import About from "@/components/header/about";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
        <Header/>
        <HeaderBanner/>
        <Directions/>
+       <About/>
     </div>
   );
 }
