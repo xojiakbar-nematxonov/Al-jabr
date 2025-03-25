@@ -106,15 +106,15 @@ export function Programm() {
         </h1>
 
         <div className="flex justify-center mb-8">
-          <div className="bg-[#F5F5F7] rounded-full p-1 inline-flex">
+          <div className="bg-[#f5f5f7e0] rounded-full p-1 inline-flex">
             {Object.keys(categories).map((category) => (
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
+                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer ${
                   activeCategory === category
                     ? "bg-white text-black"
-                    : "text-gray-600 hover:text-gray-800"
+                    : "text-gray-700 hover:text-gray-800"
                 }`}
               >
                 {category}
@@ -125,7 +125,7 @@ export function Programm() {
 
         <div className="flex flex-col md:flex-row gap-8">
           <div className="w-full md:w-64 shrink-0">
-            <h2 className="text-xl font-bold mb-4">
+            <h2 className="text-xl font-bold mb-4 cursor-pointer">
               {categories[activeCategory].name}
             </h2>
             <ul className="space-y-4">
