@@ -35,9 +35,11 @@ const Signup = () => {
                 </p>
                 <input type="password" placeholder="*********" className="bg-[#EFEFEF] py-2 px-4 rounded-2xl text-[20px] w-[477px] mt-3" />
               </div>
+              <Link href="/">
               <button className="w-[477px] py-2 text-[36px] font-normal bg-[#FFCF52] rounded-2xl mt-10 ">
                 Kirish
               </button>
+              </Link>
               <p className="text-center text-[20px] mt-6">
               Akkauntingiz yo’qmi? Unda  <Link href="/login" className="text-[#00A3FF] underline">Ro’yxatdan o’ting</Link>
               </p>
