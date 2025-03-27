@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from "next/image"
 
 const header = () => {
   return (
@@ -17,7 +18,7 @@ const header = () => {
                     Qidirish
                 </button>
             </div>
-            <img src="/image.png" alt="" className='absolute top-[33px] right-[20px]' />
+            <Image src="/image.png" alt="" className='absolute top-[33px] right-[20px]' />
         </div>
     </section>
   )
