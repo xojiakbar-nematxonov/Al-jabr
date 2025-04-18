@@ -1,10 +1,10 @@
 "use client"
 
-import { useState } from "react"
-import Image from "next/image"
-import { FiSearch, FiShoppingCart, FiHeart, FiStar } from "react-icons/fi"  
-import Navbar from "@/components/dashboard/navbar"
-import Footer from "@/components/dashboard/footer"
+import { useState } from "react";
+import Image from "next/image";
+import { FiSearch, FiShoppingCart, FiHeart, FiStar } from "react-icons/fi"  ;
+import Navbar from "../../components/dashboard/navbar";
+import Footer from "../../components/dashboard/footer.jsx";
 
 // Mock data for courses
 const coursesData = {
