@@ -16,7 +16,7 @@ const directions = () => {
     <section className='max-w-[1440px] mx-auto bg-[url("/direcbg.png")] mt-10 h-[900px]'>
       <div className="w-[88%] mx-auto py-16">
         <h1 className="text-white text-[55px] font-normal text-center">
-          Yo'nalishlarimiz
+          Yo'nalishlarimiz.
         </h1>
 
         <div className="grid grid-cols-3 justify-center items-center gap-12 mt-14">
